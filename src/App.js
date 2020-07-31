@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
 import './App.css';
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import AOS from'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+    AOS.init()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero/>
+      <About/>
+      <Portfolio/>
+      <Contact/>
+      <Footer/>
+    </>
   );
 }
 
