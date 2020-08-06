@@ -2,7 +2,8 @@ import React from 'react'
 
  function Navbar() {
     return (
-        <nav className="navbar">
+    <div className="navbar hidden" id="navbar">
+        <nav className="nav">
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="about">about</a></li>
@@ -10,6 +11,7 @@ import React from 'react'
                 <li><a href="contact"> contact</a></li>
             </ul>
         </nav>
+    </div>
     )
 }
 export default Navbar;

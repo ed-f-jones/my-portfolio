@@ -7,9 +7,9 @@ import React from 'react'
     // background pictures needs to be added.
     return (
         <section className="section-contact">
-            <div classNmae="contact-container">
+            <div className="contact-container">
                 <div>
-                    <div>
+                    <div data-aos="fade-in" data-aos-duration="1500">
                         <form>
                             <div>
                                 <input type="text" id="firstname" placeholder="Firstname">
