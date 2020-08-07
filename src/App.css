@@ -113,18 +113,27 @@ li a:hover {
   padding: .5rem;
 }
 
+.profile-pic {
+  width: 100%;
+  height: 77vh;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #333;
+}
+
 .icon-container {
+  background-color: #fff;
   max-width: 100vw;
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
   justify-content: space-around;
   align-items:center;
-  padding: .25rem;
+  border-radius: 5px;
+  margin-top: 5.5%;
+  box-shadow: 3px 3px 5px #333;
 }
 .icons {
   padding: .5rem 1.5rem;
   color: red;
-  background-color: #fff;
   font-size: 2.5rem;
   align-content: center;
 }
@@ -144,11 +153,6 @@ li a:hover {
   margin: 0;
   background-color: #999;
   border: 1px solid #333;
-}
-
-.profile-pic {
-  width: 100%;
-  height: 74vh;
 }
 
 .section-contact {
@@ -171,6 +175,8 @@ li a:hover {
   align-self: center;
   padding: 1rem;
   margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #999;
 }
 label {
   display: block;

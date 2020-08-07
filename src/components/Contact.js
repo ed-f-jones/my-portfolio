@@ -7,7 +7,7 @@ import React from 'react'
     // background pictures needs to be added.
     return (
         <section className="section-contact">
-            <div className="contact-container">
+            <div className="contact-container" data-aos="fadein" aos-duration="1500">
                 <h3>Contact me</h3>
                 <form>
                     <div>
