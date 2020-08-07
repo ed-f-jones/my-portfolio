@@ -30,7 +30,7 @@ import React from 'react'
                         <textarea id="message"></textarea>
                     </div>
                 </form>
-                <button>submit</button>
+                <button>Submit</button>
             </div>
         </section>
     )
