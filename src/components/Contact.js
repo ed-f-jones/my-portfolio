@@ -8,32 +8,29 @@ import React from 'react'
     return (
         <section className="section-contact">
             <div className="contact-container">
-                <div>
-                    <div data-aos="fade-in" data-aos-duration="1500" className="contact-form">
-                        <form>
-                            <div>
-                                <input type="text" id="firstname" placeholder="Firstname">
-                                </input>
-                            </div>
-
-                            <div>
-                                <input type="text" id="lastname" placeholder="Lastname">
-                                </input>
-                            </div>
-
-                            <div>
-                                <input type="email" id="email" placeholder="email">
-                                </input>
-                            </div>
-                            <div>
-                                <textarea palceholder="Enter meassage here...">
-
-                                </textarea>
-                            </div>
-                            <button>submit</button>
-                        </form>
+                <h3>Contact me</h3>
+                <form>
+                    <div>
+                        <label for="firstname">first name:</label>
+                        <input type="text" id="firstname"/>
                     </div>
-                </div>
+
+                    <div>
+                        <label for="lastname">last name</label>
+                        <input type="text" id="lastname"/>
+                    </div>
+
+                    <div>
+                        <label for="email">email</label>
+                        <input type="email" id="email"/>
+                    </div>
+
+                    <div>
+                        <label for="message">message</label>
+                        <textarea id="message"></textarea>
+                    </div>
+                </form>
+                <button>submit</button>
             </div>
         </section>
     )
