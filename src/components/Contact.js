@@ -9,7 +9,7 @@ import React from 'react'
         <section className="section-contact">
             <div className="contact-container">
                 <div>
-                    <div data-aos="fade-in" data-aos-duration="1500">
+                    <div data-aos="fade-in" data-aos-duration="1500" className="contact-form">
                         <form>
                             <div>
                                 <input type="text" id="firstname" placeholder="Firstname">

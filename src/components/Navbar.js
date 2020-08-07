@@ -1,8 +1,14 @@
 import React from 'react'
 
  function Navbar() {
+
     return (
     <div className="navbar hidden" id="navbar">
+
+        <div className="close-btn-container">
+            <i className="fas fa-times" id="close-btn"></i>
+        </div>
+
         <nav className="nav">
             <ul>
                 <li><a href="#home">home</a></li>

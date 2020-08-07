@@ -30,6 +30,25 @@ import Img3 from '../img/img-3.jpg';
                  party 3 wolf moon plaid mixtape wolf, yr offal la croix. Polaroid pug narwhal 
                  williamsburg chartreuse.
                 </p>
+                <div className="icon-container">
+
+                    <div className="icons">
+                    <i class="fab fa-html5"></i>
+                    </div>
+
+                    <div className="icons">
+                    <i class="fab fa-css3-alt"></i>
+                    </div>
+
+                    <div className="icons">
+                    <i class="fab fa-js"></i>
+                    </div>
+
+                    <div className="icons">
+                    <i class="fab fa-react"></i>
+                    </div>
+
+                </div>
             </div>
         </section>
     )
