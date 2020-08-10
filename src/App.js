@@ -7,16 +7,19 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import AOS from'aos';
 import 'aos/dist/aos.css';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 function App() {
     AOS.init()
   return (
     <>
-      <Hero/>
-      <About/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+    <Router>
+        <Hero/>
+        <About/>
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+    </Router>
     </>
   );
 }

@@ -8,7 +8,7 @@ import React from 'react'
     return (
         <section className="section-contact">
             <div className="contact-container" data-aos="fadein" aos-duration="1500">
-                <h3>Contact me</h3>
+                <h3 className="header">Contact me</h3>
                 <form>
                     <div>
                         <label for="firstname">first name:</label>

@@ -7,7 +7,7 @@ import Img3 from '../img/img-3.jpg';
     return (
         <section className="section-about" id="about">
             <div data-aos="fade-in" data-aos-duration="2000">
-            <img className="profile-pic" src={Img3}/>
+            <img className="profile-pic" src={Img3} alt="profile pic"/>
             </div>
             <div data-aos="fade-in" data-aos-duration="2500">
                 <h1>About me</h1>

@@ -67,16 +67,20 @@ a{
   cursor: pointer;
 }
 
-li:hover {
-  transform: scale(1.25);
-
-}
 
 li a:hover {
   background-color: #fff;
   color: #333;
   transition:  all 1s ease-in-out;
   padding: 0 1.25rem;
+  transform: scale(1.25);
+}
+@keyframes slider {
+  from {
+    transform: translateX(100%)
+  } to {
+    transform: translateX(0)
+  }
 }
 
 .hero {
@@ -164,6 +168,11 @@ li a:hover {
   padding: 1rem;
 }
 
+.header {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
 .contact-container {
   width: 25rem;
   height: 100%;
@@ -178,6 +187,7 @@ li a:hover {
   border-radius: 5px;
   box-shadow: 5px 5px 10px #999;
 }
+
 label {
   display: block;
   color: #fff;
